@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kostki 3D - GitHub Pages</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="app">
+    <h1>Rzut kostkami</h1>
+    <p class="subtitle">Naciśnij Start, aby kostki zaczęły się obracać, a Stop, aby je zatrzymać.</p>
+
+    <section class="dice-area">
+      <div class="die-scene">
+        <div class="die" id="dice1">
+          <div class="face front">
+            <span class="pip center"></span>
+          </div>
+
+          <div class="face back">
+            <span class="pip top-left"></span>
+            <span class="pip top-right"></span>
+            <span class="pip middle-left"></span>
+            <span class="pip middle-right"></span>
+            <span class="pip bottom-left"></span>
+            <span class="pip bottom-right"></span>
+          </div>
+
+          <div class="face right">
+            <span class="pip top-left"></span>
+            <span class="pip top-right"></span>
+            <span class="pip center"></span>
+            <span class="pip bottom-left"></span>
+            <span class="pip bottom-right"></span>
+          </div>
+
+          <div class="face left">
+            <span class="pip top-left"></span>
+            <span class="pip top-right"></span>
+            <span class="pip bottom-left"></span>
+            <span class="pip bottom-right"></span>
+          </div>
+
+          <div class="face top">
+            <span class="pip top-left"></span>
+            <span class="pip center"></span>
+            <span class="pip bottom-right"></span>
+          </div>
+
+          <div class="face bottom">
+            <span class="pip top-left"></span>
+            <span class="pip bottom-right"></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="die-scene">
+        <div class="die" id="dice2">
+          <div class="face front">
+            <span class="pip center"></span>
+          </div>
+
+          <div class="face back">
+            <span class="pip top-left"></span>
+            <span class="pip top-right"></span>
+            <span class="pip middle-left"></span>
+            <span class="pip middle-right"></span>
+            <span class="pip bottom-left"></span>
+            <span class="pip bottom-right"></span>
+          </div>
+
+          <div class="face right">
+            <span class="pip top-left"></span>
+            <span class="pip top-right"></span>
+            <span class="pip center"></span>
+            <span class="pip bottom-left"></span>
+            <span class="pip bottom-right"></span>
+          </div>
+
+          <div class="face left">
+            <span class="pip top-left"></span>
+            <span class="pip top-right"></span>
+            <span class="pip bottom-left"></span>
+            <span class="pip bottom-right"></span>
+          </div>
+
+          <div class="face top">
+            <span class="pip top-left"></span>
+            <span class="pip center"></span>
+            <span class="pip bottom-right"></span>
+          </div>
+
+          <div class="face bottom">
+            <span class="pip top-left"></span>
+            <span class="pip bottom-right"></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="controls">
+      <button id="startBtn">Start</button>
+      <button id="stopBtn">Stop</button>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
